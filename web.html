@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Architect & Interior Designer Toolkit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+        .electric-blue {
+            color: #00FFFF;
+        }
+        .bg-electric-blue {
+            background-color: #00FFFF;
+        }
+        .glow-button {
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            transition: box-shadow 0.3s ease;
+        }
+        .glow-button:hover {
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="smooth-scroll">
+    <!-- Hero Section -->
+    <section class="bg-gray-900 py-20 px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 electric-blue">Kuasai Desain Arsitektur & Interior dengan Library Terlengkap</h1>
+        <p class="text-lg md:text-xl mb-8 text-gray-300">Dapatkan koleksi software, plugin, asset 3D, dan tutorial dalam satu paket bundle eksklusif untuk meningkatkan workflow kerja Anda.</p>
+        <a href="#pricing" class="inline-block bg-electric-blue text-black font-semibold py-3 px-8 rounded-lg glow-button hover:bg-blue-400 transition duration-300">Beli Paket Bundle Sekarang</a>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section class="py-16 px-4 bg-gray-800 text-center">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4">Capek cari asset satu-satu? Kami kumpulkan semua yang Anda butuhkan: Software, Plugin, Material, hingga Tutorial Video dalam 1 klik.</h2>
+        <p class="text-gray-400">Hemat waktu dan fokus pada kreativitas Anda dengan bundle lengkap ini.</p>
+    </section>
+
+    <!-- Product Catalog -->
+    <section class="py-16 px-4 bg-gray-900">
+        <h2 class="text-3xl font-bold text-center mb-12 electric-blue">Isi Paket Bundle</h2>
+        <div class="max-w-6xl mx-auto">
+            <!-- Tabs for Groups -->
+            <div class="flex flex-wrap justify-center mb-8">
+                <button class="tab-button active bg-electric-blue text-black py-2 px-4 rounded-lg mx-2 mb-2" data-tab="group1">Software & Plugins</button>
+                <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded-lg mx-2 mb-2" data-tab="group2">Pro Assets & Library</button>
+                <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded-lg mx-2 mb-2" data-tab="group3">Mastery Tutorials</button>
+                <button class="tab-button bg-gray-700 text-white py-2 px-4 rounded-lg mx-2 mb-2" data-tab="group4">Project Files</button>
+            </div>
+            <div class="tab-content">
+                <!-- Group 1 -->
+                <div id="group1" class="tab-pane grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">SketchUp Pro (2015-2021)</h3>
+                        <p class="text-gray-400">Software desain 3D lengkap untuk arsitektur.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">V-Ray (2.0 - 4.0)</h3>
+                        <p class="text-gray-400">Plugin rendering realistis untuk visualisasi.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Enscape 3D</h3>
+                        <p class="text-gray-400">Real-time rendering untuk presentasi cepat.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Skatter Plugin</h3>
+                        <p class="text-gray-400">Plugin untuk scatter objek seperti tanaman.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Laubwerk</h3>
+                        <p class="text-gray-400">Library tanaman 3D untuk lanskap.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Plugin Updates</h3>
+                        <p class="text-gray-400">Update terbaru untuk semua plugin.</p>
+                    </div>
+                </div>
+                <!-- Group 2 -->
+                <div id="group2" class="tab-pane hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Material Collection</h3>
+                        <p class="text-gray-400">Koleksi material untuk tekstur realistis.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">IES Lights</h3>
+                        <p class="text-gray-400">File pencahayaan IES untuk akurasi.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Vismat</h3>
+                        <p class="text-gray-400">Material visual untuk rendering.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">HDRI</h3>
+                        <p class="text-gray-400">High Dynamic Range Images untuk lighting.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">SKP Library</h3>
+                        <p class="text-gray-400">Library model SketchUp siap pakai.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Interior & Building SKP Files</h3>
+                        <p class="text-gray-400">File SKP untuk interior dan bangunan.</p>
+                    </div>
+                </div>
+                <!-- Group 3 -->
+                <div id="group3" class="tab-pane hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Video Tutorial SketchUp</h3>
+                        <p class="text-gray-400">Panduan video lengkap untuk SketchUp.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Tutorial AutoCAD</h3>
+                        <p class="text-gray-400">Tutorial untuk desain teknis dengan AutoCAD.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Tutorial Enscape</h3>
+                        <p class="text-gray-400">Panduan rendering real-time.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Modul PDF</h3>
+                        <p class="text-gray-400">Modul pembelajaran dalam format PDF.</p>
+                    </div>
+                </div>
+                <!-- Group 4 -->
+                <div id="group4" class="tab-pane hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Modeling House</h3>
+                        <p class="text-gray-400">File proyek modeling rumah.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Modeling Restoran</h3>
+                        <p class="text-gray-400">File proyek modeling restoran.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Bahan AutoCAD</h3>
+                        <p class="text-gray-400">Template dan bahan untuk AutoCAD.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg card-hover">
+                        <h3 class="text-xl font-semibold mb-2 electric-blue">Photoshop Post-Production Files</h3>
+                        <p class="text-gray-400">File untuk editing post-produksi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features/Benefits -->
+    <section class="py-16 px-4 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-12 electric-blue">Mengapa Memilih Kami?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div class="flex flex-col items-center">
+                <i data-lucide="dollar-sign" class="w-12 h-12 electric-blue mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Sekali Bayar (Lifetime Access)</h3>
+                <p class="text-gray-400">Akses seumur hidup tanpa biaya tambahan.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <i data-lucide="download" class="w-12 h-12 electric-blue mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Download Instan</h3>
+                <p class="text-gray-400">Unduh langsung setelah pembelian.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 px-4 bg-gray-900 text-center">
+        <h2 class="text-3xl font-bold mb-12 electric-blue">Harga Spesial</h2>
+        <div class="max-w-md mx-auto bg-gray-800 p-8 rounded-lg card-hover">
+            <h3 class="text-2xl font-semibold mb-4">The Ultimate Architect & Interior Designer Toolkit</h3>
+            <p class="text-gray-400 mb-6">Bundle lengkap untuk profesional desain.</p>
+            <div class="mb-6">
+                <span class="text-lg line-through text-gray-500">Rp 500.000</span>
+                <span class="text-3xl font-bold electric-blue ml-4">Rp 149.000</span>
+            </div>
+            <a href="#" class="inline-block bg-electric-blue text-black font-semibold py-3 px-8 rounded-lg glow-button hover:bg-blue-400 transition duration-300">Beli Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 bg-gray-800 text-center">
+        <div class="flex flex-wrap justify-center mb-4">
+            <a href="#" class="text-gray-400 hover:text-electric-blue mx-4">Tentang Kami</a>
+            <a href="#" class="text-gray-400 hover:text-electric-blue mx-4">Kontak</a>
+            <a href="#" class="text-gray-400 hover:text-electric-blue mx-4">Kebijakan Privasi</a>
+            <a href="#" class="text-gray-400 hover:text-electric-blue mx-4">Syarat & Ketentuan</a>
+        </div>
+        <p class="text-gray-500">Copyright 2024. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Tab functionality
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabPanes = document.querySelectorAll('.tab-pane');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                tabButtons.forEach(btn => btn.classList.remove('active', 'bg-electric-blue', 'text-black'));
+                tabButtons.forEach(btn => btn.classList.add('bg-gray-700', 'text-white'));
+                button.classList.add('active', 'bg-electric-blue', 'text-black');
+                button.classList.remove('bg-gray-700', 'text-white');
+
+                tabPanes.forEach(pane => pane.classList.add('hidden'));
+                const target = document.getElementById(button.dataset.tab);
+                target.classList.remove('hidden');
+            });
+        });
+
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
